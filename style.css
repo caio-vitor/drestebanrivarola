@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,900');
+
+html {
+	font-family: 'Barlow', sans-serif;
+	box-sizing: border-box;
+}
+
+.hero {
+	height: 80vh;
+	background-image: url('imgs/bg_esteban.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#galeria {
+	transition: opacity 0.8s ease;
+}
+
+.box {
+	height: 40vw;
+	overflow-clip-box: content-box;
+	transition: all 0.8s ease;
+}
+
+.menu {
+	width: 25vw;
+}
+
+.imagem-perfil {
+	max-width: 600px;
+}
+
+.contato {
+	background-image: url('imgs/contato_bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.drop {
+	transition: all 0.5s ease;
+}
+
+@media (max-width: 640px) {
+	.menu {
+		width: 100%;
+	}
+}

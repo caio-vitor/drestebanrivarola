@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+        <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Dr. Esteban Wisnivesky Rocca Rivarola</title>
+    </head>
+    <body class="bg-orange-100">
+        <!-- barra de endereço superior -->
+        <div class="bg-gray-100 w-full h-12 px-4 lg:flex items-center
+            justify-between hidden">
+            <p>Rua Cristiano Vianna, 401, conjunto 1106 - Pinheiros, São
+                Paulo - SP</p>
+            <p>Tel: (11) 95070-4134</p>
+        </div>
+        <!-- nav -->
+        <div class="bg-white w-full lg:h-32 flex flex-wrap lg:flex-no-wrap
+            justify-between
+            items-center">
+            <div class="flex items-center lg:ml-16 p-4">
+                <img class="w-12 c" src="icone.svg" alt="">
+                <h1 class="text-xl lg:text-2xl text-purple-500 font-black
+                    text-center lg:ml-4">Dr.
+                    Esteban
+                    Wisnivesky
+                    Rocca
+                    Rivarola</h1>
+                <div class="lg:hidden">
+                    <button class="flex items-center px-3 py-2
+                        text-green-400" id='burg'>
+                        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>
+                                Menu
+                            </title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0
+                                6h20v2H0v-2z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="drop bg-white lg:ml-8 text-center w-full pb-4">
+                    <ul class="lg:list-reset lg:flex lg:px-12">
+                        <li class="lg:mr-6">
+                            <a class="text-green-400 hover:text-green-600
+                                uppercase"
+                                href="#1">Dr.
+                                Esteban</a>
+                        </li>
+                        <li class="lg:mr-6">
+                            <a class="text-green-400 hover:text-green-600
+                                uppercase"
+                                href="#2">Especialidades</a>
+                        </li>
+                        <li class="lg:mr-6">
+                            <a class="text-green-400 hover:text-green-600
+                                uppercase"
+                                href="#3">Consultório</a>
+                        </li>
+                        <li class="lg:mr-6">
+                            <a class="text-green-400 hover:text-green-600
+                                uppercase"
+                                href="#artigos">Artigos</a>
+                        </li>
+                        <li>
+                            <a class="text-green-400 hover:text-green-600
+                                uppercase"
+                                href="#5">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- hero -->
+            <div class="bg-gray-500 hero flex flex-col items-center
+                justify-center
+                text-center
+                text-green-600">
+                <h1 class="text-3xl lg:text-6xl lg:w-2/3 font-black">Cardiologia
+                    &
+                    Eletrofisiologia Cardíaca</h1>
+                <p class="text-lg lg:text-2xl mt-2 uppercase">tratamento de
+                    arritmias</p>
+            </div>
+            <!-- Dr. Esteban -->
+            <div class="drest my-8 lg:flex items-start
+                lg:px-12 xl:px-64" id="1">
+                <div class="imagem-perfil w-full">
+                    <img class="w-full" src="imgs/1.jpg" alt="">
+                </div>
+                <div class="bio px-4 lg:ml-2 mt-8 lg:mt-0 lg:w-4/5">
+                    <h1 class="text-2xl text-green-400 mb-2 font-bold">Dr.
+                        Esteban</h1>
+                    <p>O Dr. Esteban W. Rivarola formou-se na Faculdade de
+                        Medicina
+                        de Ribeirão Preto da Universidade de São Paulo
+                        (USP), onde
+                        também fez residência em Clínica Médica e
+                        Cardiologia. No
+                        instituto do Coração (Incor-SP) especializou-se em
+                        arritmologia,
+                        adquirindo título de Especialista em
+                        Eletrofisiologia
+                        invasiva pela
+                        Sociedade Brasileira de Arritmias Cardíacas. Em 2011
+                        obteve
+                        título
+                        de Doutor em ciências pela USP, com tese premiada e
+                        publicada
+                        internacionalmente sobre o papel do sistema nervoso
+                        autonômico
+                        na gênese de arritmias.
+                    </p>
+                    <p>
+                        É membro do corpo clínico do Instituto do Coração e
+                        Hospital
+                        Samaritano Paulista, onde faz atendimentos clínicos
+                        em
+                        cardiologia e procedimentos invasivos de tratamento
+                        de
+                        arritmias
+                        (Estudo eletrofisiológico e Ablação por
+                        radiofrequência).
+                        No consultório particular faz atendimentos em
+                        cardiologia
+                        geral e
+                        oferece um atendimento especializado em arritmias
+                        cardíacas.
+                    </p>
+                </div>
+            </div>
+
+            <!-- especialidades -->
+
+            <div class="espec bg-gray-200 p-4 lg:p-12 lg:flex lg:flex-wrap
+                lg:justify-center" id="2">
+                <h1 class="text-2xl text-green-400 w-full text-center font-bold
+                    my-4">Especialidades</h1>
+                <div class="bg-white border border-gray-500 p-4 lg:p-8 max-w-sm
+                    rounded
+                    overflow-hidden shadow-md
+                    lg:mx-8 my-8">
+                    <h2 class="text-center text-purple-500 uppercase font-bold
+                        my-2">Cardiologia</h2>
+                    <ul>
+                        <li class="my-2">Diagnósticos e tratamento em
+                            cardiologia geral</li>
+                        <li class="my-2">Pressão alta</li>
+                        <li class="my-2">Colesterol</li>
+                        <li class="my-2">Fatores de risco</li>
+                        <li class="my-2">Avaliação Cardiológica no
+                            Pré-operatório de
+                            Cirurgias</li>
+                        <li class="my-2">Avaliação Cardiológica para atividade
+                            física</li>
+                    </ul>
+                </div>
+                <div class="bg-white border border-gray-500 p-4 lg:p-8 max-w-sm
+                    rounded
+                    overflow-hidden shadow-md
+                    lg:mx-8 my-8">
+                    <h2 class="text-center text-purple-500 uppercase font-bold
+                        my-2">Eletrofisiologia
+                        cardíaca</h2>
+                    <ul>
+                        <li class="my-4">Diagnóstico, tratamento e
+                            acompanhamento das
+                            arritmias
+                            cardíacas</li>
+                        <li class="my-4">Tratamento de arritmias por ablação:
+                            <ul>
+                                <li class="ml-6">extra-sístoles</li>
+                                <li class="ml-6">Fibrilação Atrial</li>
+                                <li class="ml-6">taquicardia supraventricular</li>
+                                <li class="ml-6">flutter atrial</li>
+                                <li class="ml-6">taquicardia atrial</li>
+                            </ul>
+                        </li class="my-4">
+                        <li>Tratamento da Síncope Vasovagal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- consultório -->
+            <div class="consultorio mt-8 lg:mb-8 lg:flex lg:flex-wrap
+                lg:justify-center" id="3">
+                <h1 class="text-2xl text-green-400 lg:w-full text-center mb-8
+                    text-center font-bold">Consultório</h1>
+                <div id="galeria" class="bg-white lg:border
+                    border-gray-500
+                    w-full lg:w-3/4 lg:rounded h-48 lg:h-full
+                    overflow-hidden
+                    cursor-pointer">
+                    <transition name='fade' tag='div' mode="out-in">
+                        <div
+                            v-for="number in [currentNumber]"
+                            :key='number' class="box">
+                            <img @click="next"
+                                :src="currentImage"
+                                v-on:mouseover="stopRotation"
+                                v-on:mouseout="startRotation"
+                                class="object-cover"
+                                />
+                        </div>
+                    </transition>
+                </div>
+            </div>
+            <!-- artigos -->
+            <div class="bg-gray-200 artigos pt-8" id="artigos">
+                <h1 class="text-2xl text-green-400 lg:w-full text-center mb-8
+                    text-center font-bold">Artigos</h1>
+                <div class="bg-white lg:flex lg:flex-row lg:p-8
+                    items-start xl:px-64">
+                    <div class="menu bg-green-400 p-4 lg:border border-gray-500
+                        lg:rounded w-full lg:flex-none">
+                        <ul class="text-white text-center">
+                            <li class="my-2 cursor-pointer hover:underline"
+                                @click="currentRoute=
+                                0">O que são as arritmias cardíacas?
+                            </li>
+                            <li class="my-2 cursor-pointer hover:underline"
+                                @click="currentRoute=
+                                1">O que pode causar arritmias?</li>
+                            <li class="my-2 cursor-pointer hover:underline"
+                                @click="currentRoute=
+                                2">Quais são os principais tratamentos das
+                                arritmias
+                                cardíacas?</li>
+                            <li class="my-2 cursor-pointer hover:underline"
+                                @click="currentRoute=
+                                3">Em que casos a Ablação está indicada?</li>
+                            <li class="my-2 cursor-pointer hover:underline"
+                                @click="currentRoute=
+                                4">Artigos acadêmicos</li>
+                        </ul>
+                    </div>
+                    <div id="conteudo" class="order-2"></div>
+                </div>
+            </div>
+            <!-- contato/footer -->
+            <div class="contato py-8 lg:flex lg:flex-wrap
+                lg:justify-center" id="5">
+                <h1 class="text-2xl text-purple-500 lg:w-full text-center mb-8
+                    text-center font-bold">Contato</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.252159253439!2d-46.67969828395888!3d-23.559385484684064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57839885e0d3%3A0x8f6161fee68362d4!2sR.+Cristiano+Viana%2C+401+-+Pinheiros%2C+S%C3%A3o+Paulo+-+SP%2C+05406-050!5e0!3m2!1spt-BR!2sbr!4v1558206074913!5m2!1spt-BR!2sbr"
+                    width="360" height="450" frameborder="0" style="border:0"
+                    allowfullscreen class="lg:order-2">
+                </iframe>
+                <div class="lg:mr-16 p-8">
+                    <p class="text-2xl lg:text-4xl text-purple-800">Agende sua
+                        consulta</p>
+                    <p class="lg:text-xl text-purple-500 mb-12">
+                        de segunda a sexta-feira, das 09h-18h
+                    </p>
+                    <p class="text-2xl lg:text-4xl text-purple-500 font-bold">Tel:
+                        (11)
+                        95070-4134</p>
+                    <p class="text-purple-800">Rua Cristiano Vianna, 401,
+                        conjunto 1106 <br>
+                        Pinheiros, São
+                        Paulo - SP</p>
+                </div>
+            </div>
+            <footer class="bg-gray-800 text-white text-xs h-16 px-8 w-full flex
+                items-center text-center lg:text-left">
+                <p>Todos os direitos reservados © Esteban Wisnivesky Rocca,
+                    2019.
+                    Rivarola</p>
+            </footer>
+
+            <script src="app.js"></script>
+        </body>
+    </html>
